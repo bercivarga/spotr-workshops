@@ -1,4 +1,4 @@
-# Berci's zero-to-hero JavaScript course
+# Berci's zero-to-hero front-end workshops
 
 Hi there! If you're reading this, then you are most likely someone who is interested in learning about front-end web technologies.
 
