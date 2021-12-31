@@ -4,7 +4,7 @@ Hi there! If you're reading this, then you are most likely someone who is intere
 
 You're at the right place! I prepared this workshop per request of the front-end chapter in order to provide a good basis for learning modern front-end web development with JavaScript, and eventually React.
 
-In this course, we'll cover:
+Throughout the next months, we'll be covering the following topics:
 - Introduction to front-end development with JavaScript
 - Fast-track HTML and CSS course
 - Introduction to the command line and version control systems
