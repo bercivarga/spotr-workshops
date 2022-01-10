@@ -28,6 +28,7 @@ Throughout the next months, we'll be covering the following topics:
 - CSS frameworks
 - Introduction TypeScript
 - TypeScript in React
+- Widget development with Mendix and React
 - Testing
 - SSR with Next.js
 - ...and more! (suggestions welcome)
