@@ -30,7 +30,6 @@ Throughout the next months, we'll be covering the following topics:
 - TypeScript in React
 - Widget development with Mendix and React
 - Testing
-- SSR with Next.js
 - ...and more! (suggestions welcome)
 
 We'll be discussing the topics above in group-based workshops, held every Thursday between 3-6PM (times may vary).
