@@ -1,0 +1,20 @@
+.exercise-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 400px;
+  height: 400px;
+  background: white;
+  border: 5px solid blue;
+  margin: 20px;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: blueviolet;
+  width: 40px;
+  height: 40px;
+}
