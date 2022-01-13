@@ -1,0 +1,44 @@
+/*
+  Global stylesheet
+*/
+
+h1 {
+  font-size: 48px;
+  color: red;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  display: block;
+  background: yellow;
+  padding: 10px;
+  box-shadow: 10px 20px red;
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.z-class {
+  padding: 30px;
+  position: absolute;
+  background: url("https://images.pathe-thuis.nl/14605_378x538.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+  top: 0;
+  right: 100px;
+  z-index: 2;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(red, blue);
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.square-two {
+  height: 80px;
+}
