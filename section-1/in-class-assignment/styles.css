@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  background-image: url('https://www.adamhammond.com/90s/superbatman/images/pow.jpg');
+}
+
+.center {
+  border: 8px solid blue;
+  padding: 8px;
+  background-color: black;
+  color: blue;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.middle {
+  border-radius: 4px;
+  padding: 24px;
+  width: auto;
+}
+.superheroes {
+  max-width: 60%;
+}
+
+
+.middle h1 {
+  color: red;
+  text-decoration: underline;
+}
+
+.here-link {
+  color: greenyellow;
+  transition: color .5s ease-in-out;
+}
+
+.here-link:hover {
+  color: pink;
+}
+
+.blinking-text {
+  animation: blink 1s steps(1, end) infinite;
+  color: blue;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
