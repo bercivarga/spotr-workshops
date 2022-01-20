@@ -11,7 +11,7 @@ Your tasks are the following:
   - All of these sites are straightforward to implement, don't be intimidated by the amount of things on the screen
   - Don't forget that you can copy stuff
   - You can deviate from the design, the end goal if to have an ugly 90's themed site. Go crazy!
-  - You **NEED** to have one transition and one animation on the page (remember: `transition` property and `@keyframes` at-rule)
+  - You **NEED** to have one transition, one media query, and one animation on the page (remember: `transition` property, `@media` and `@keyframes` at-rule)
   - The original pages aren't responsive. Ours need to be. Use `@media` queries!
 - Try to commit as much as you can, your repository needs to have at least 10 commits besides the initial commit
 - Create at least two branches for at least two of your commits
