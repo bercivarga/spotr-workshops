@@ -1,47 +1,24 @@
-# Berci's Spotr front-end workshops
+# Week 2 - Advanced HTML & CSS, Terminal, and Git
 
-Hi there! If you're reading this, then you are most likely someone who is interested in learning about front-end web technologies.
+This week we're diving deeper into the world of CSS, and we're going to start using our terminal alongside git.
 
-You're at the right place! I prepared this workshop per request of the front-end chapter in order to share some tips from my journey of learning modern front-end web development with JavaScript.
+This week we’ll be covering the following topics:
+- Advanced HTML and CSS
+  - Last time we skipped some HTML tags that might be useful for you in the future, so we’ll be covering those.
+  - We haven’t touched on responsive design with CSS yet. This week we’ll learn how to make our websites look good on any screen.
+  - We’ll cover CSS transitions and animations, and the difference between the two concepts.
+  - We’ll live-code an ugly 90's styled site in class that covers what we’ve learned so far. This’ll also be your assignment for next week.
+- Intro to the bash shell and the terminal
+  - We’ll learn how to navigate the file system by only using the terminal.
+  - We’ll create and delete files and directories
+  - We’ll cover a bunch of other commands that you may find useful on your programming journey
+- Intro to git
+  - We’ll learn what git is and how to configure it on your computer
+  - We’ll learn how to initialise a git repository
+  - We’ll create a remote repository on GitHub
+  - We’ll learn the basics of git for managing our projects
+  - We’ll cover how to make pull requests
 
-This course starts from the fundamentals, and sets its goal to cover all the relevant technologies we currently use in our applications.
+You can find this week's assignment in the `assignment` folder.
 
-## How to use this repo?
-
-Every module will have its own branch. When you initially check one out, it'll be either empty with a README.md in it, or it'll have some boilerplate relevant to the module's topic already inserted. The latter can be the case of turning an existing app production-ready, or when we'll be learning React for the first time, to reduce the time for us to get to the interesting parts. (_We'll be covering the boilerplate and configuration stuff too, but at a later time_)
-
-I'll be live-coding the files we're going to make during the workshop, and I'll frequently commit to the repo after each section. This way you will always have access to the latest changes, and you can review a workshop's exercises later for homework or the in-class exercises.
-
-## Course setup
-
-Throughout the next months, we'll be covering the following topics:
-- Introduction to front-end development with JavaScript
-- Fast-track HTML and CSS course
-- Introduction to the command line and version control systems
-- JavaScript fundamentals
-- Intermediate JavaScript
-- Building an app with vanilla JavaScript, HTML and CSS
-- Advanced command line and git usage
-- Building and tooling front-end applications
-- Complete introduction to React
-- Intermediate React
-- CSS frameworks
-- Introduction TypeScript
-- TypeScript in React
-- Widget development with Mendix and React
-- Testing
-- ...and more! (suggestions welcome)
-
-We'll be discussing the topics above in group-based workshops, held every Thursday between 3-6PM (times may vary).
-
-Most workshops will look like this:
-- 1h45m of seminar session
-- 15m break
-- 1h or in-class exercises
-- (Optional) Take-home assignments
-
-With a setup like this I hope that we can keep a steady progress of learning new topics while keeping most of the studying within the duration of the workshop. The optional exercises are *strongly* recommended, however, as they are given for you to further solidify what we cover during the seminars.
-
-For any questions, just shoot me a message on Slack.
-
-See you in class! 👨‍🏫
+See you in class!
