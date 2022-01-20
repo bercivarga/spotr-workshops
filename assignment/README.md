@@ -15,9 +15,7 @@ Your tasks are the following:
   - The original pages aren't responsive. Ours need to be. Use `@media` queries!
 - Try to commit as much as you can, your repository needs to have at least 10 commits besides the initial commit
 - Create at least two branches for at least two of your commits
-- Open at least two pull requests, which you need to approve yourself
-- Rename at least one commit, which you haven't pushed to the remote
-- Rename at least one commit, which you've pushed to the remote
+- Rename at least one commit
 - When you finished with the project, merge all your changes to `main` and delete all unused branches
 
 You need to do all of these tasks in order to pass this assignment. If you're finished, send me a link to your (public) GitHub repository where you host the remote of your project. I'll clone it and leave feedback either on Slack.
