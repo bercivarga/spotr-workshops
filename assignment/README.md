@@ -14,7 +14,7 @@ Your tasks are the following:
   - You **NEED** to have one transition, one media query, and one animation on the page (remember: `transition` property, `@media` and `@keyframes` at-rule)
   - The original pages aren't responsive. Ours need to be. Use `@media` queries!
 - Try to commit as much as you can, your repository needs to have at least 10 commits besides the initial commit
-- Create at least two branches for at least two of your commits
+- Create at least two branches
 - Rename at least one commit
 - When you finished with the project, merge all your changes to `main` and delete all unused branches
 
