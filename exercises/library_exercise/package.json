@@ -1,0 +1,19 @@
+{
+  "name": "library_exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "popmotion": "^11.0.3"
+  },
+  "devDependencies": {
+    "parcel": "^2.3.1"
+  }
+}

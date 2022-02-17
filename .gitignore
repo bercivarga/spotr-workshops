@@ -1,5 +1,7 @@
 # dependencies
-/node_modules
+**/*/node_modules
+**/*/dist
+**/.parcel_cache
 /.pnp
 .pnp.js
 
