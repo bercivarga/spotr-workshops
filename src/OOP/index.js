@@ -81,3 +81,13 @@ class Employee extends PersonClass {
 }
 
 const david = new Employee('David', 27, true, 'Mendix developer', 1000000);
+
+// PersonClass is Employee's prototype.
+// Prototypes are fundamental to OOP. They allow us to define properties and methods that we can share amongst classes,
+// without the need to constantly re-declare them.
+
+// console.log('Jesse is a: ', Object.getPrototypeOf(jesse))
+// console.log('Jerome is a: ', Object.getPrototypeOf(jerome))
+// console.log('David is a: ', Object.getPrototypeOf(david))
+
+// Try searching `prototype` on MDN! Seems like every method has a prototype. 🥸
