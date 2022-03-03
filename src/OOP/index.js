@@ -57,3 +57,21 @@ class PersonClass {
 }
 
 const jerome = new PersonClass('Jerome', 29, true);
+
+// Child and parent classes
+
+class Employee extends PersonClass {
+  role;
+
+  constructor(name, age, isCool, role) {
+    super(name, age, isCool);
+    this.role = role;
+  }
+
+  introduce() {
+    super.sayHi(); // can be written as `this.sayHi()` as well
+    console.log(`I'm a ${this.role}.`);
+  }
+}
+
+const david = new Employee('David', 27, true, 'Mendix developer');
