@@ -58,20 +58,26 @@ class PersonClass {
 
 const jerome = new PersonClass('Jerome', 29, true);
 
-// Child and parent classes
+// Child and parent classes, with private fields (briefly touch upon static properties and methods)
 
 class Employee extends PersonClass {
   role;
+  #salary;
 
-  constructor(name, age, isCool, role) {
+  constructor(name, age, isCool, role, salary) {
     super(name, age, isCool);
     this.role = role;
+    this.#salary = salary;
   }
 
   introduce() {
     super.sayHi(); // can be written as `this.sayHi()` as well
     console.log(`I'm a ${this.role}.`);
   }
+
+  sayEarnings() {
+    console.log(`I make ${this.#salary} a month. 💸💸💸`)
+  }
 }
 
-const david = new Employee('David', 27, true, 'Mendix developer');
+const david = new Employee('David', 27, true, 'Mendix developer', 1000000);
