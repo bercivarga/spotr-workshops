@@ -37,18 +37,26 @@ function Person(name, age, isCool) {
 }
 
 const jesse = new Person("Jesse", 25, true);
+// {
+//   name: 'Jesse',
+//   age: 25,
+//   isCool: true,
+//   sayHi: function() {
+//     console.log(`Hi! I'm ${jesse.name}!`);
+//   }
+// }
 
 // From constructors to classes
 
 class PersonClass {
   name;
-  age;
-  isCool;
+  age = 29;
+  #isCool = true;
 
   constructor(name, age, isCool) {
     this.name = name;
     this.age = age;
-    this.isCool = isCool;
+    this.#isCool = isCool;
   }
 
   sayHi() {
@@ -56,7 +64,7 @@ class PersonClass {
   }
 }
 
-const jerome = new PersonClass('Jerome', 29, true);
+const jerome = new PersonClass('Jerome');
 
 // Child and parent classes, with private fields (briefly touch upon static properties and methods)
 
@@ -65,14 +73,17 @@ class Employee extends PersonClass {
   #salary;
 
   constructor(name, age, isCool, role, salary) {
-    super(name, age, isCool);
+    super(name, age, isCool)
     this.role = role;
     this.#salary = salary;
+
+
+
   }
 
   introduce() {
     super.sayHi(); // can be written as `this.sayHi()` as well
-    console.log(`I'm a ${this.role}.`);
+    console.log(`I'm a ${this.role}. I'm ${this.isCool}`);
   }
 
   sayEarnings() {
@@ -81,6 +92,10 @@ class Employee extends PersonClass {
 }
 
 const david = new Employee('David', 27, true, 'Mendix developer', 1000000);
+// david.introduce();
+
+// david.introduce()
+// david.sayEarnings()
 
 // PersonClass is Employee's prototype.
 // Prototypes are fundamental to OOP. They allow us to define properties and methods that we can share amongst classes,
@@ -91,3 +106,28 @@ const david = new Employee('David', 27, true, 'Mendix developer', 1000000);
 // console.log('David is a: ', Object.getPrototypeOf(david))
 
 // Try searching `prototype` on MDN! Seems like every method has a prototype. 🥸
+
+// [1, 2, 3].
+
+class JeromesArr extends Array {
+  constructor() {
+    super()
+  }
+}
+
+const sample = new JeromesArr();
+console.log((sample))
+
+Array.prototype.logSomething = function() { console.log('something') }
+
+new Array().logSomething()
+
+const str = ''
+const obj = {}
+const String = {
+  reverse(str) {
+    // ..
+  }
+}
+
+'something'.reverse();
